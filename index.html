@@ -5,20 +5,17 @@
     <title>Bankura Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="myscript.js"></script>
 </head>
 <body>
 <div class="navbar">
-        <div class="nav-logo border">
-            <div class="logo">
-
-            </div>
+    <div class="nav-logo border">
+        <div class="logo">
         </div>
-        <!-- <div class="nav-store border">
-            
-        </div> -->
+    </div>
+    
     <div class="category-super">
       <div class="category-navbar"> 
           <div class="nav-storecategory">
@@ -54,9 +51,10 @@
             
        </div>
        <div class="getintouch">
-            <i class="fa-solid fa-phone-volume"></i>
-            <p class="contact">Contact</p>
-            <p>Us</p>
+        <a href="#contactus" class="getintouch-nav" style="display: flex; text-decoration: none; text-underline-offset: unset; color: white;"><i class="fa-solid fa-phone-volume" style="margin-top: 5px;"></i><p class="contact">Contact Us</p>
+            
+            
+        </a>
        </div>
     </div>
 </div> 
@@ -91,13 +89,19 @@
 <div class="category-container" data-aos="fade-up" data-aos-duration="1000">
     <div class="category-sub-container">
         <div class="men category-img">
-            <img class="categoryimg" src="men_category.webp">
-            <div class="banner_content">
+            <img class="categoryimg-men" src="men_category.webp">
+            <div class="banner_content banner_content-men">
                 <h2>Men's Clothing</h2>
             </div>
         </div>
+        <div class="kid category-img">
+            <img class="categoryimg-kid" src="kids_category.webp">
+            <div class="banner_content banner_content-kid">
+                <h2>Kid's Clothing</h2>
+            </div>
+        </div>
         <div class="women category-img">
-            <img class="categoryimg" src="women_category.webp">
+            <img class="categoryimg-women" src="women_category.webp">
             <div class="banner_content">
                 <h2>Women's Clothing</h2>
             </div>
@@ -146,31 +150,35 @@
 </div>
 <div class="store-wedding">
     <div class="wedding" id="weddingintro">
-        <div class="wedding-left">
-
-        </div>
-        <div class="wedding-right">
-
-        </div>
+        
     </div>
 </div>
 <div class="store-bridal">
     <div class="bridal" id="bridalintro">
-        <div class="bridal-left">
-
-        </div>
-        <div class="bridal-right">
-
-        </div>
+        
     </div>
 </div>
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="52" width="52" class="cur-po scroll11Img"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 12-4-4h8l-4 4z"></path>
-</svg>
     
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
 </body>
+<footer class="footer">
+    <p>Copyright &copy; 2025 Bankura Store. All rights reserved.</p>
+    <p>Follow Us |</p>
+    <a href="https://www.facebook.com/bankurastore" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/bankurastore/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+</footer>
+<footer class="footer_contactus" style="height: 30px;" id="contactus">
+    <p>Contact Us | <i class="fa-solid fa-phone-volume"></i></p>
+    <p>+91-98321 74302 |</p>
+    <a href="https://web.whatsapp.com/" style="display: flex; gap: 5px;" target="_blank"><i class="fa-brands fa-whatsapp"></i><p>+91-98321 74302 |</p></a>
+    <a href="mailto:bankura.store1982@gmail.com" style="display: flex; gap: 5px;" target="_blank"><i class="fa-solid fa-envelope"></i><p>bankura.store1982@gmail.com</p></a>
+</footer>
+<footer class="footer_contactus" style="height: 30px;" id="contactus">
+    <p>For Feedback and Complaints | <i class="fa-regular fa-comment"></i></p>
+    <p>+91-98321 74302</p>
+</footer>
 </html>
