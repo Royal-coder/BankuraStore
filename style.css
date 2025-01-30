@@ -207,8 +207,9 @@ html {
     margin-top: -8px;
     border-radius: 10px;
     height: 50px;
-    background: linear-gradient(135deg, #3498db, #2ecc71);
-    color: white;
+    /* background: linear-gradient(135deg, #3498db, #2ecc71); */
+    background-color: rgb(255, 255, 255);  
+    color: rgb(0, 0, 0);
     
     
     
@@ -219,7 +220,7 @@ html {
     text-align: center;
     font: italic bold 16px/2;
     font-size: x-large;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    /* text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2); */
     animation: breathing 5s infinite;
     
      
@@ -234,7 +235,7 @@ html {
 
 @keyframes breathing{
     0% {transform: scale(0.8);opacity: 1;}
-    50% {transform: scale(0.9);opacity: 1;color: rgb(255, 255, 255);}
+    50% {transform: scale(0.9);opacity: 1;}
     100% {transform: scale(0.8);opacity: 1;}
 }
 
@@ -576,7 +577,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     opacity: 0.7;
     font-size: medium;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(231, 155, 155);  
     box-shadow: 40px 0px 50px rgba(28, 95, 72, 0.2) ;
     border-radius: 10px;
     transition: all 0.5s ease;
